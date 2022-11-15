@@ -253,6 +253,17 @@ git pull
 ```sh
 git push
 ```
+```sh
+myaf@MacBook-Pro-Katasonov GeekBrain2 % git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.88 KiB | 1.88 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Myaf911/GeekBrain2.git
+   b584b2a..c8bc6d5  main -> main
+```
 
 Я закидывал к себе второе практическое задание
 ```sh
@@ -312,7 +323,7 @@ git reset --hard
 >Безвозвратно удаляет незафиксированные текущие изменения!
 
 ## После окончания работы
-~~~sh
+```sh
 git clean -f -d
 ```
 >После работы в репозитории могут оставаться различные ненужные, неотслеживаемые файлы и прочий мусор. Чтобы удалить всё лишнее.
